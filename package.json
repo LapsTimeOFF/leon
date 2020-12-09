@@ -4,7 +4,8 @@
   "description": "Leon le nouveau assistant révolutionnaire.",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodemon"
+    "test": "nodemon",
+    "preinstall": "node ./"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,17 @@
     "url": "https://github.com/LapsTimeOFF/leon/issues"
   },
   "homepage": "https://github.com/LapsTimeOFF/leon#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs": "0.0.1-security",
+    "express": "4.17.1",
+    "helmet": "4.2.0",
+    "pm2": "4.5.0",
+    "dotenv": "8.2.0"
+  },
   "devDependencies": {
     "eslint": "^7.15.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "type": "module"
 }
