@@ -1,0 +1,23 @@
+{
+  "name": "leon",
+  "version": "0.0.0-alpha.0",
+  "description": "Leon le nouveau assistant révolutionnaire.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LapsTimeOFF/leon.git"
+  },
+  "keywords": [
+    "js",
+    "ai"
+  ],
+  "author": "TimeIndustry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LapsTimeOFF/leon/issues"
+  },
+  "homepage": "https://github.com/LapsTimeOFF/leon#readme"
+}
