@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/LapsTimeOFF/leon/issues"
   },
-  "homepage": "https://github.com/LapsTimeOFF/leon#readme"
+  "homepage": "https://github.com/LapsTimeOFF/leon#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "nodemon": "^2.0.6"
+  }
 }
