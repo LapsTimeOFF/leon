@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "nodemon",
-    "preinstall": "node ./"
+    "preinstall": "python3 ./src/scripts/preinstall.py"
   },
   "repository": {
     "type": "git",
