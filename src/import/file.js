@@ -13,4 +13,9 @@ const log = function(data, file2) {
   }); 
 };
 
-export { log };
+const getVersion = function() {
+  let json = JSON.parse(fs.readFileSync('package.json', 'utf8'))
+  return json.version 
+}
+
+export { getVersion, log };

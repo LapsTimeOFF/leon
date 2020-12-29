@@ -1,0 +1,1 @@
+console.log('Fin de l\'installation des modules.\n MERCI !');
